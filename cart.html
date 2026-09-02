@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="frame-body content-bg">
+    <h2 style="text-align: center; margin-bottom: 20px;">Your Shopping Cart</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Book Image</th>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Price</th>
+                <th>Amount</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img class="book-img" src="image2.png" alt="Computer Science"></td>
+                <td>Computer Science</td>
+                <td>Robert Sedgewick</td>
+                <td>Rs. 4000</td>
+                <td>
+                    <button class="qty-btn">-</button>
+                    <span style="margin: 0 5px;">2</span>
+                    <button class="qty-btn">+</button>
+                </td>
+                <td><button class="action-btn btn-remove">Remove</button></td>
+            </tr>
+            <tr>
+                <td><img class="book-img" src="image5.png" alt="Artificial Intelligence"></td>
+                <td>Artificial Intelligence</td>
+                <td>Charu C. Agarwal</td>
+                <td>Rs. 5000</td>
+                <td>
+                    <button class="qty-btn">-</button>
+                    <span style="margin: 0 5px;">1</span>
+                    <button class="qty-btn">+</button>
+                </td>
+                <td><button class="action-btn btn-remove">Remove</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="total-container">
+        Total Price: Rs. 13,000
+        <br>
+        <button class="btn-checkout">Proceed to Checkout</button>
+    </div>
+</body>
+</html>

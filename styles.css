@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Frame Body Basics */
+.frame-body {
+    padding: 15px;
+}
+
+.header-bg {
+    background-color: #1e293b;
+    padding: 12px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-bg {
+    background-color: #e2e8f0;
+    padding: 20px 10px;
+}
+
+.content-bg {
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+.footer-bg {
+    background-color: #0f172a;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+/* Header & Navigation Styles */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.site-logo {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.logo-container h1 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #cbd5e1;
+    font-weight: 600;
+    margin-left: 20px;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Sidebar Styles */
+.sidebar-bg h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0f172a;
+}
+
+.category-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    text-align: left;
+    font-weight: 600;
+    color: #1e293b;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.category-btn:hover {
+    background-color: #38bdf8;
+    color: #ffffff;
+    border-color: #38bdf8;
+}
+
+/* Title Font */
+.welcome-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: #0f172a;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+.form-container {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+.form-group {
+    margin-bottom: 14px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #334155;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    outline: none;
+}
+
+.radio-group, .checkbox-group {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #0284c7;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 12px;
+    text-align: center;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.book-img {
+    width: 45px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.action-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-add {
+    background-color: #0284c7;
+    color: #ffffff;
+}
+
+.btn-remove {
+    background-color: #ef4444;
+    color: #ffffff;
+}
+
+.qty-btn {
+    background-color: #0284c7;
+    border: none;
+    color: white;
+    padding: 3px 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.total-container {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+.btn-checkout {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0284c7;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
