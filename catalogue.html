@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body class="frame-body content-bg">
+    <h2 style="text-align: center; margin-bottom: 20px;">Book Catalogue</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Book Image</th>
+                <th>Book Name</th>
+                <th>Author Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-book-id="computer-science">
+                <td><img class="book-img" src="image2.png" alt="Computer Science"></td>
+                <td>Computer Science</td>
+                <td>Robert Sedgewick</td>
+                <td class="price" data-price="4000">Rs. 4000</td>
+                <td>
+                    <div class="quantity-control">
+                        <button type="button" class="qty-btn qty-minus">−</button>
+                        <span class="quantity">2</span>
+                        <button type="button" class="qty-btn qty-plus">+</button>
+                    </div>
+                </td>
+                <td><button type="button" class="action-btn btn-add">Add to Cart</button></td>
+            </tr>
+            <tr data-book-id="operating-system">
+                <td><img class="book-img" src="image3.png" alt="Operating System Concepts"></td>
+                <td>Operating System Concepts</td>
+                <td>Dr. Ikvinderpal Singh</td>
+                <td class="price" data-price="3800">Rs. 3800</td>
+                <td>
+                    <div class="quantity-control">
+                        <button type="button" class="qty-btn qty-minus">−</button>
+                        <span class="quantity">2</span>
+                        <button type="button" class="qty-btn qty-plus">+</button>
+                    </div>
+                </td>
+                <td><button type="button" class="action-btn btn-add">Add to Cart</button></td>
+            </tr>
+            <tr data-book-id="database-system">
+                <td><img class="book-img" src="image4.png" alt="Database System Concepts"></td>
+                <td>Database System Concepts</td>
+                <td>Abraham Silberschatz</td>
+                <td class="price" data-price="2500">Rs. 2500</td>
+                <td>
+                    <div class="quantity-control">
+                        <button type="button" class="qty-btn qty-minus">−</button>
+                        <span class="quantity">2</span>
+                        <button type="button" class="qty-btn qty-plus">+</button>
+                    </div>
+                </td>
+                <td><button type="button" class="action-btn btn-add">Add to Cart</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="cart-message" class="cart-message" aria-live="polite"></p>
+</body>
+</html>

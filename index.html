@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G.L. Bajaj Online Book Store</title>
+</head>
+<!-- Outer layout: Top Header (110px), Middle Content (auto), Bottom Footer (60px) -->
+<frameset rows="110px,*,60px" frameborder="1" border="1">
+    
+    <!-- Top Header Frame -->
+    <frame src="header.html" name="headerFrame" scrolling="no" noresize>
+    
+    <!-- Middle Section: Left Sidebar (220px), Right Main Content (auto) -->
+    <frameset cols="220px,*">
+        <frame src="sidebar.html" name="sidebarFrame" scrolling="no">
+        <frame src="home.html" name="mainFrame">
+    </frameset>
+    
+    <!-- Bottom Footer Frame -->
+    <frame src="footer.html" name="footerFrame" scrolling="no" noresize>
+
+</frameset>
+</html>
